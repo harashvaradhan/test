@@ -43,6 +43,6 @@ if ($_SESSION['username'] != '') {
 <?php
 include_once('footer.php');
 } else {
-	header("Location: ./index.php");
+	header("Location: ./login");
 }
 ?>

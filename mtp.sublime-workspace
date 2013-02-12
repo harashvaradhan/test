@@ -32,26 +32,10 @@
 	"buffers":
 	[
 		{
-			"file": "add-pages.php",
+			"file": "index.php",
 			"settings":
 			{
-				"buffer_size": 968,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": ".htaccess",
-			"settings":
-			{
-				"buffer_size": 975,
-				"line_ending": "Unix"
-			}
-		},
-		{
-			"file": "menu.php",
-			"settings":
-			{
-				"buffer_size": 365,
+				"buffer_size": 769,
 				"line_ending": "Windows"
 			}
 		}
@@ -59,9 +43,17 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 392.0,
+		"height": 117.0,
 		"selected_items":
 		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"co",
+				"Git: Commit"
+			],
 			[
 				"add",
 				"Git: Add..."
@@ -69,10 +61,6 @@
 			[
 				"pu",
 				"Git: Push"
-			],
-			[
-				"co",
-				"Git: Commit"
 			],
 			[
 				"sa",
@@ -89,10 +77,6 @@
 			[
 				"Package Control: ",
 				"Package Control: Install Package"
-			],
-			[
-				"push",
-				"Git: Push"
 			],
 			[
 				"cus",
@@ -135,7 +119,7 @@
 				"Package Control: Install Package"
 			]
 		],
-		"width": 449.0
+		"width": 575.0
 	},
 	"console":
 	{
@@ -152,20 +136,32 @@
 	},
 	"file_history":
 	[
-		"/home/harsh/PhpWork/MTP/header.php",
-		"/home/harsh/PhpWork/MTP/js/jquery_function.js",
 		"/home/harsh/PhpWork/MTP/.htaccess",
 		"/home/harsh/PhpWork/MTP/includes/website-processing.php",
+		"/home/harsh/PhpWork/MTP/js/jquery_function.js",
+		"/home/harsh/PhpWork/MTP/websitepreview.php",
+		"/home/harsh/PhpWork/MTP/preview_header.php",
+		"/home/harsh/PhpWork/MTP/create-website.php",
+		"/home/harsh/PhpWork/MTP/add-pages.php",
+		"/home/harsh/PhpWork/MTP/edit-file.php",
+		"/home/harsh/PhpWork/MTP/index.php",
+		"/home/harsh/PhpWork/MTP/loadcontents.php",
+		"/home/harsh/PhpWork/MTP/logout.php",
+		"/home/harsh/PhpWork/MTP/seo-settings.php",
+		"/home/harsh/PhpWork/MTP/set-home-page.php",
+		"/home/harsh/PhpWork/MTP/upload-file.php",
+		"/home/harsh/PhpWork/MTP/view-file.php",
+		"/home/harsh/PhpWork/MTP/view-page.php",
+		"/home/harsh/PhpWork/MTP/viewpages.php",
+		"/home/harsh/PhpWork/MTP/menu.php",
+		"/home/harsh/PhpWork/MTP/includes/seo-tags-processing.php",
+		"/home/harsh/PhpWork/MTP/header.php",
 		"/home/harsh/PhpWork/MTP/js/validation.js",
 		"/home/harsh/PhpWork/MTP/includes/file.php",
 		"/home/harsh/PhpWork/MTP/includes/login-processing.php",
-		"/home/harsh/PhpWork/MTP/websitepreview.php",
-		"/home/harsh/PhpWork/MTP/create-website.php",
-		"/home/harsh/PhpWork/MTP/add-pages.php",
 		"/home/harsh/.cache/.fr-p6Yo1u/add-pages-09-02/add-pages.php",
 		"/home/harsh/.config/sublime-text-2/Packages/User/Preferences.sublime-settings",
 		"/home/harsh/PhpWork/MTP/z",
-		"/home/harsh/PhpWork/MTP/edit-file.php",
 		"/home/harsh/PhpWork/MTP/includes/dbconfig.php",
 		"/home/harsh/PhpWork/MTP/z1.htaccess",
 		"/home/harsh/PhpWork/MTP/includes/dbconnect.php",
@@ -189,6 +185,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"-",
 			"websites",
 			"create-website.php",
 			"../",
@@ -220,78 +217,25 @@
 			[
 				{
 					"buffer": 0,
-					"file": "add-pages.php",
+					"file": "index.php",
 					"settings":
 					{
-						"buffer_size": 968,
+						"buffer_size": 769,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								947,
-								947
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/PHP/PHP.tmLanguage",
-							"translate_tabs_to_spaces": false
-						},
-						"translation.x": 0.0,
-						"translation.y": 306.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": ".htaccess",
-					"settings":
-					{
-						"buffer_size": 975,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								305,
-								305
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/Text/Plain text.tmLanguage"
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "menu.php",
-					"settings":
-					{
-						"buffer_size": 365,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								66,
-								66
+								769,
+								769
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/PHP/PHP.tmLanguage"
 						},
-						"translation.x": 121.0,
+						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
@@ -354,8 +298,16 @@
 		"selected_items":
 		[
 			[
-				"",
+				"co",
 				"/home/harsh/PhpWork/code_igniter/codeigniter.sublime-project"
+			],
+			[
+				"c",
+				"/home/harsh/PhpWork/code_igniter/codeigniter.sublime-project"
+			],
+			[
+				"",
+				"/home/harsh/PhpWork/MTP/mtp.sublime-project"
 			]
 		],
 		"width": 380.0

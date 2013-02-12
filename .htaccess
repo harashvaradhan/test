@@ -20,11 +20,12 @@ RewriteBase /MTP/
 RewriteCond %{SCRIPT_FILENAME} !-d
 RewriteCond %{SCRIPT_FILENAME} !-f
 RewriteRule ^addpages/([0-9]+)$ add-pages.php?website_id=$1
+RewriteRule ^login$ index.php
 RewriteRule ^websites$ create-website.php
 RewriteRule ^log-out$ logout.php
 RewriteRule ^upload$ upload-file.php
 RewriteRule ^seo$ seo-settings.php
-
+RewriteRule ^set_home_page/([0-9]+)$ set-home-page.php?website_id=$1
 RewriteRule ^preview/([0-9]+)/([0-9]+)$ websitepreview.php?website_id=$1&pageurlid=$2
 
 

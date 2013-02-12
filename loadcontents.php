@@ -4,7 +4,7 @@
 	<?php
 	session_start();
 	if (!isset($_SESSION['username'])) {
-		header("Location: index.php");
+		header("Location: login");
 	}
 	include_once ('includes/website.php');
 	$website_id = $_REQUEST['website_id'];

@@ -44,6 +44,6 @@ if ($_SESSION['username'] != null) {
 </body>
 <?php include_once('footer.php');
 } else {
-	header('Location: ./index.php');
+	header('Location: ./login');
 }
 ?>

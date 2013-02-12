@@ -2,7 +2,7 @@
 session_start();
 include_once("header.php");
 if (isset($_SESSION['username'])) {
-	 header("Location: create-website.php");
+	 header("Location: websites.php");
 }else{
 ?>
 <body>

@@ -220,6 +220,7 @@ $(document).ready(function () {
         },
         close: function () {
             allFields.val("").removeClass("ui-state-error");
+            window.location.href = "../websites";
         }
     });
 
@@ -293,11 +294,12 @@ $(document).ready(function(){
             },
             Cancel: function () {
                 $(this).dialog("close");
-                window.location.href = "websites";
+                window.location.href = "../websites";
             }
         },
         close: function () {
             allFields.val("").removeClass("ui-state-error");
+            window.location.href = "../websites";
         }
     });
 
@@ -334,17 +336,18 @@ $(document).ready(function(){
         });
         var website_id =$('[name="website_id"]');
         website_id = website_id.val();
-        jQuery.post("includes/add-main-page.php",
+        jQuery.post("../includes/add-main-page.php",
             { page:page, website_id:website_id },
             function(data,textStatus) {
+                alert(data);
                 if(data == 1){
                 $(that).dialog("close");
                 alert('Main page of your website is now saved');
-                window.location.href = "websites";
+                window.location.href = "../websites";
             }else{
                 $(that).dialog("close");
                 alert('Some error occurred,please try again.');
-                window.location.href = "websites";
+                window.location.href = "../websites";
             }
         });
     }

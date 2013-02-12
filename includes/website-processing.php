@@ -40,7 +40,8 @@ session_start();
 	        	$main_page= $row['main_page'];
 	        	// error_log("main page ".$main_page);
 	        	if (is_null($main_page)) {
-	        		echo "<tr><td><a href='set-home-page.php?website_id=".$row['website_id']."' title='Click to go website' target='_blank'>".$row['website_name']."</a></td>";
+	        		// echo "<tr><td><a href='set-home-page.php?website_id=".$row['website_id']."' title='Set home page for website'>".$row['website_name']."</a></td>";
+	        		echo "<tr><td><a href='set_home_page/".$row['website_id']."' title='Click to go website'>".$row['website_name']."</a></td>";
 	        		 // echo "<script>alert('Please set your website home page first.')</script>";
 	        	} else {
 	            	// echo "<tr>

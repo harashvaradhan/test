@@ -88,6 +88,6 @@ if ($_SESSION['username'] != null) {
 	}
 	include_once('footer.php');
 } else {
-	header('Location: ./index.php');
+	header('Location: ./login');
 }
 ?>

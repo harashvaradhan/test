@@ -4,7 +4,7 @@ include_once("header.php");
 include_once('menu.php');
 
 if (!isset($_SESSION['username'])) {
-	header("Location: index.php");
+	header("Location: login");
 }
 ?>
 
